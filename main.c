@@ -109,12 +109,15 @@ int main() {
     char newBookName[100], newISBN[20];
 
     while (1) {
-        printf("\nBook Management System\n");
+        printf("\n=========================================\n");
+        printf("        Book Management System\n");
+        printf("=========================================\n");
         printf("1. Add a book\n");
         printf("2. List all books\n");
         printf("3. Delete a book\n");
         printf("4. Update a book\n");
         printf("5. Exit\n");
+        printf("=========================================\n");
         printf("Enter your choice: ");
         scanf("%d", &choice);
 
